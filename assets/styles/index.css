@@ -119,6 +119,10 @@ img{
     margin-top: 2rem;
 }
 
+.all-recipe-images{
+  width: 100% ;
+}
+
  h2{
     font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
@@ -135,6 +139,14 @@ h3{
   text-align: left;
   margin-top: .25rem;
   margin-bottom: .5rem;
+}
+h4{
+  font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: .01rem;
 }
 
 a{
@@ -221,3 +233,34 @@ p {
   .fa, .fa-solid{
     color: #214f26;
   }
+
+  footer{
+    background-color: black;
+    color: rgb(175, 175, 175) ;
+    border: 1px;
+    height: 4em;
+  }
+
+  .footer{
+    padding-top: 1.5em;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .footer, .fa-regular, .fa-brands{
+    color: rgb(175, 175, 175);
+  }
+
+ .icons{
+  display: flex;
+ }
+
+ .fa-utensils{
+  margin-left: 4rem;
+ }
+
+ h6{
+  margin-right: 4rem;
+ }
+
+ 
