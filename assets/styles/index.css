@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;1,500&display=swap');
 
 .banner{
     position: relative;
@@ -105,15 +106,6 @@ form {
     border: 1px solid transparent;
 }
 
-header h1{
-    font-family: 'Open Sans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #971b1e;
-    font-weight: 600;
-    font-size: 2rem;
-    text-align: center;
-
-}
-
 img{
     width: 100%;
     margin-top: 2rem;
@@ -121,8 +113,15 @@ img{
 
 .all-recipe-images{
   width: 100% ;
+  margin-bottom: 1em;
 }
-
+header h1{
+  font-family: 'Open Sans','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #971b1e;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
  h2{
     font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
@@ -148,7 +147,27 @@ h4{
   margin-top: 1rem;
   margin-bottom: .01rem;
 }
+h5{
+  font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-size: .75rem;
+  padding-left: 2px;
+}
+h6{
+  font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  font-size: .75rem;
+  margin-right: 4rem;
+  padding-left: 2px;
+ }
 
+ h7{
+  color: #214f26;
+  font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 3rem;
+ }
 a{
     text-decoration: none;
 }
@@ -156,8 +175,13 @@ a{
 p {
     width: 100%;
     color: black;
-    font-family: 'Open sans Bold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'open sans medium 500','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 1.5rem;
+}
+ul, ol {
+  font-family: 'open sans medium 500','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: .75rem;
+  line-height: 1.5rem;
 }
 
 
@@ -180,7 +204,6 @@ p {
     border: none;
     outline: none;
     color: black;
-  
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
@@ -234,6 +257,8 @@ p {
     color: #214f26;
   }
 
+
+  
   footer{
     background-color: black;
     color: rgb(175, 175, 175) ;
@@ -253,14 +278,65 @@ p {
 
  .icons{
   display: flex;
+  
  }
 
  .fa-utensils{
   margin-left: 4rem;
  }
-
- h6{
-  margin-right: 4rem;
+ .card{
+  background-color: white;
  }
+
+label{
+  display: inline-block;
+  cursor: pointer;
+  color:white ;
+  background-color: #214f26;
+  margin-top: 12px;
+  font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: .65rem;
+  padding: 3px 13px;
+}
+
+.btn{
+  font-family: 'Open Sans Condensed SemiBold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  padding: 4px;
+  background-color: #214f26;
+  width: 70px;
+  height: 16px;
+  
+}
+/* problem with right align of download */
+.download{
+  justify-content: right;
+  float: right;
+}
+
+
+h8{
+  font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: .75rem;
+  padding-left: 2px;
+}
+
+.fa-download{
+  color: white;
+
+}
+
+#read-more:checked ~ .content{
+  display: block;
+}
+
+#read-more:checked ~ label{
+  display: none;
+}
+
+.content{
+  display: none;
+}
 
  
