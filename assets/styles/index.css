@@ -65,7 +65,7 @@
 }
 
 
-form {
+#form {
     background-color: #e6e6e5;
     width: 300px;
     height: 44px;
@@ -305,7 +305,7 @@ ul, ol {
   background-color: white;
  }
 
-label{
+.card label{
   display: inline-block;
   cursor: pointer;
   color:white ;
@@ -357,3 +357,68 @@ h8{
 }
 
  
+
+.contact-form label, 
+.contact-form input, 
+.contact-form select, 
+.contact-form textarea{
+    display: block;
+    width: 100%;
+    background-color: white;
+}
+
+.contact-form label {
+    margin-bottom: 0.5em;
+    font-family: 'open sans medium 500','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    border: 1px solid #22333B;
+    padding: .5em;
+    border-radius: 8px;
+}
+
+.contact-form :invalid {
+    border-color: #971b1e;
+    color: #971b1e;
+}
+
+.contact-form :invalid {
+    color: #971b1e;
+    width: 100% ;
+}
+:placeholder{
+    color: black;
+}
+
+.contact-form button {
+    cursor: pointer;
+    padding: .8em;
+    width: 100% ;
+    font-size: 1.2em;
+}
+
+.contact-form button.clear {
+  background-color: #971b1e;
+}
+
+.contact-form button.clear:hover {
+    background-color: rgb(155, 23, 23);
+}
+
+.contact-details hr {
+    border: none;
+    border-top: 1px solid #22333B;
+    margin: 2em 0;
+}
+
+.contact-details h3 {
+    margin-bottom: .5em;
+    margin-top: 1em;
+}
+
+.contact-details p {
+    margin: 0;
+}
