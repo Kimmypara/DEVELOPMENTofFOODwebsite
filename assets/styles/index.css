@@ -105,6 +105,9 @@
     text-decoration: none;
     border: 1px solid transparent;
 }
+.birgu{
+  margin-top: 0px;
+}
 
 img{
     width: 100%;
@@ -171,6 +174,12 @@ h6{
 
  H9{
   text-decoration:underline ;
+ }
+
+ H10{
+  margin-bottom: 0.5em;
+    height: 1rem;
+    font-family: 'open sans medium 500','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
 a{
     text-decoration: none;
@@ -356,7 +365,10 @@ h8{
   display: none;
 }
 
- 
+ hr{
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
 
 .contact-form label, 
 .contact-form input, 
@@ -369,6 +381,7 @@ h8{
 
 .contact-form label {
     margin-bottom: 0.5em;
+    height: 1rem;
     font-family: 'open sans medium 500','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -378,6 +391,7 @@ h8{
     border: 1px solid #22333B;
     padding: .5em;
     border-radius: 8px;
+    height: 1rem;
 }
 
 .contact-form :invalid {
@@ -402,10 +416,33 @@ h8{
 
 .contact-form button.clear {
   background-color: #971b1e;
+  height: .5rem;
+  width: 7rem;
 }
 
 .contact-form button.clear:hover {
-    background-color: rgb(155, 23, 23);
+    background-color: rgb(249, 27, 27);
+}
+
+.submit, .clear{
+  text-align: center;
+  color: white;
+}
+
+.contact-form button.submit{
+  background-color: #214f26;
+  height: .5rem;
+  width: 7rem;
+}
+#message-input{
+  height: 5rem;
+  font: system-ui;
+  border-color: #971b1e;
+}
+
+
+.contact-form button.submit:hover{
+  background-color: #35b644;
 }
 
 .contact-details hr {
