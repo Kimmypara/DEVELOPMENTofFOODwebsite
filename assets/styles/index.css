@@ -200,7 +200,7 @@ p {
   line-height: 1.5rem;
 }
 
-ul, ol {
+ul, ol, .address {
   font-family: 'open sans medium 500','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: .75rem;
   line-height: 1.5rem;
