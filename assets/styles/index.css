@@ -163,24 +163,11 @@ h6{
   margin-right: 4rem;
   padding-left: 2px;
  }
-
- h7{
-  color: #214f26;
-  font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: left;
-  font-size: 1rem;
-  line-height: 3rem;
- }
-
- H9{
-  text-decoration:underline ;
- }
-
- H10{
-  margin-bottom: 0.5em;
-    height: 1rem;
-    font-family: 'open sans medium 500','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
+.download{
+  color: white ;
+  font-size: .75rem;
+}
+ 
 a{
     text-decoration: none;
 }
@@ -335,13 +322,6 @@ ul, ol, .address {
   margin-left: auto;
 }
 
-
-h8{
-  font-family: 'Open Sans Condensed SemiBold','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: white;
-  font-size: .75rem;
-  padding-left: 2px;
-}
 
 .fa-download{
   color: white;
